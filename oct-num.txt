@@ -1,0 +1,10 @@
+set output [open "out.txt" w]
+set frames [molinfo top get numframes]
+for {set i 0} {$i<$frames} {incr i} {
+puts "Frame: $i"
+set a [atomselect top "resname OCT and within 3 of resname KER" frame $i]
+set num [$a num]
+puts $output "$i $num"
+$a delete
+}
+close $output
