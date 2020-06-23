@@ -5,8 +5,8 @@
 4. Type "source ott-num.txt" to execute the script; (ott-num.txt for counting polar oil and oct-num.txt for counting non-polar oil)
 5. The output will be generated as "out.txt"
 
-## Output file is formated as \<frame number> \<atom number>.
-## example output
+### Output file is formated as \<frame number> \<atom number>.
+- example output
 - 0 0
 - 1 60
 - 2 103
