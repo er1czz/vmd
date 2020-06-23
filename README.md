@@ -1,5 +1,5 @@
 # vmd
-Tutorial to use the Tcl script fo VMD for calculating number of oil atoms within 3 Angstroms of kerogen surface
+Tutorial to use the Tcl script for VMD calculating number of oil atoms within 3 Angstroms of kerogen surface
 Load the trajectory file (\*gro\) in VMD
 Open VMD TkConsole
 Set directory to script directory
