@@ -6,7 +6,7 @@
 5. The output will be generated as "out.txt"
 
 ### Output file is formated as \<frame number> \<atom number>.
-In this case 
+In this case  
 0 0  
 1 60  
 2 103  
