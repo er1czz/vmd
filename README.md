@@ -5,4 +5,4 @@
 4. Source script file (e.g. source oct-num.txt for non-polar oil)
 5. The output will be generated as "out.txt"
 
-## Output file is formated as \<frame number>\ \<atom number>\.
+## Output file is formated as \<frame number> \<atom number>.
