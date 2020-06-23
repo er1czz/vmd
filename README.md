@@ -15,6 +15,6 @@ For example
 5 114**  
 
 ### File description:   
-**oct-num.txt**: Tcl script to count numbers of non-polar oil atoms (resname OCT) within 3 Angstroms of kerogen surface (resname KER)   
-**ott-num.txt**: Tcl script to count numbers of polar oil atoms (resname OTT) within 3 Angstroms of kerogen surface   
-**wkpod300-comp.gro**: gromacs trajectory file (six frames) of a polar oil cluster (30 octanethiols) interaction with a kerogen surface
+[**oct-num.txt**](https://er1czz.github.io/vmd/oct-num.txt): Tcl script to count numbers of non-polar oil atoms (resname OCT) within 3 Angstroms of kerogen surface (resname KER)   
+[**ott-num.txt**](https://er1czz.github.io/vmd/ott-num.txt): Tcl script to count numbers of polar oil atoms (resname OTT) within 3 Angstroms of kerogen surface   
+[**wkpod300-comp.gro**](https://er1czz.github.io/vmd/wkpod300-comp.gro): gromacs trajectory file (six frames) of a polar oil cluster (30 octanethiols) interaction with a kerogen surface
