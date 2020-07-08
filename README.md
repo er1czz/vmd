@@ -22,7 +22,7 @@ For example
 # Instruction 2: use the Tcl script for VMD to calculate the surface area of oil droplet (probing radius 0.14 nm)
 Similar to instructuion 1.
 
-### Output file is formated as \<frame number> \<total SA> \ <water/oil contact area> \ <surface/oil contact area>.
+### Output file is formated as \<frame number> \<total SA> \<water/oil contact area> \<surface/oil contact area>.
 ### unit: angstrom<sup>2</sup>  
 For example  
 **0 2889.4345703125 2848.1982421875 262.49859619140625  
