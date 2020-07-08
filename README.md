@@ -2,8 +2,7 @@
 1. Load the trajectory file in VMD; (e.g. wkpod300-comp.gro, drag the file to VMD Main or on **VMD Main** click **File** tab then **New Molecule ...**)
 2. Open VMD TkConsole; (click **Extension** tab then **Tk Console**)
 3. Set directory to the location of script file; (Use command "cd" and "cd .." to navigate and "pwd" to show current directory)
-4. Type "source ott-count.txt" to execute the script;
-5. The output will be generated as "cout_out.txt"
+4. Type "source ott-count.txt" to execute the script and the data will be saved as "count_out.txt".  
 
 ### Output file is formated as \<frame number> \<atom number>.
 For example  
@@ -20,7 +19,7 @@ For example
 [**wkpod300-comp.gro**](https://er1czz.github.io/vmd/wkpod300-comp.gro): gromacs trajectory file (six frames) of a polar oil cluster (30 octanethiols) interaction with a kerogen surface
 
 # Instruction 2: use the Tcl script for VMD to calculate the surface area of oil droplet (probing radius 0.14 nm)
-Similar to instructuion 1.
+Similar to instructuion 1, data will be saved as "sasa_out.txt".  
 
 ### Output file is formated as \<frame number> \<total SA> \<water/oil contact area> \<surface/oil contact area>.
 ### unit: angstrom<sup>2</sup>  
