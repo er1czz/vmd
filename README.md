@@ -15,8 +15,8 @@ For example
 5 230**  
 
 ### File description:   
-[**oct-count.txt**](https://er1czz.github.io/vmd/oct-count.txt): Tcl script to count numbers of non-polar oil atoms (resname OCT) within 3 Angstroms of kerogen surface (resname KER)   
-[**ott-count.txt**](https://er1czz.github.io/vmd/ott-count.txt): Tcl script to count numbers of polar oil atoms (resname OTT) within 3 Angstroms of kerogen surface   
+[**oct-count.txt**](https://er1czz.github.io/vmd/oct-count.txt): Tcl script to count numbers of non-polar oil atoms (resname OCT) within 3.6 Angstroms of kerogen surface (resname KER)   
+[**ott-count.txt**](https://er1czz.github.io/vmd/ott-count.txt): Tcl script to count numbers of polar oil atoms (resname OTT) within 3.6 Angstroms of kerogen surface   
 [**wkpod300-comp.gro**](https://er1czz.github.io/vmd/wkpod300-comp.gro): gromacs trajectory file (six frames) of a polar oil cluster (30 octanethiols) interaction with a kerogen surface
 
 # Instruction 2: use the Tcl script for VMD to calculate the surface area of oil droplet (probing radius 0.14 nm)
@@ -32,3 +32,6 @@ For example
 4 4459.04833984375 2660.631103515625 1747.8780517578125
 5 4613.27392578125 2723.780517578125 1727.9306640625**
 
+### File description:   
+[**oct-sasa.txt**](https://er1czz.github.io/vmd/oct-sasa.txt): Tcl script to analyze surface area of non-polar oil droplet.   
+[**ott-sasa.txt**](https://er1czz.github.io/vmd/ott-sasa.txt): Tcl script to analyze surface area of non-polar oil droplet.
