@@ -1,16 +1,15 @@
 ############################
-# This tcl uses sasa command to calculate surface area of oil droplet exposed to water and to kerogen surface
+# This tcl script uses sasa command to estimate surface area of whole oil droplet, and the contact areas of oil-water and oil-surface. 
 # command [measure sasa]
-# -restrict means sasa only calculates the region of restrict selection
-# 
-# The script below directly calculates the sasa of the whole droplet and the sasa of partial sphere of droplet 
-# The contact area of droplet is by deducting the area of partial sphere from the area of the whole droplet.
-# radius of 1.4 (water) is used for sasa
-# unit in angstrom
-# non-polar oil
+# 'measure sasa 1.4 $A -restrict $B' means sasa only calculates the restrict region $B of selected entity $A
+# with a probing radius of 1.4 angstrom (water)  
+#
+# non-polar oil: OCT
+# surface: KER
+# water: SOL
 # created by Zelong Zhang in 2020
+# https://er1czz.github.io/vmd/
 ############################
-# selection
 set output [open "sasa_out.txt" w]
 set frames [molinfo top get numframes]
 # loop
@@ -27,5 +26,5 @@ for {set i 0} {$i < $frames} {incr i} {
 puts "Bingo!"
 puts "Your data have been saved to the output file: sasa_out.txt"
 puts "data format as:"
-puts "Frame id, drop total, drop dome, drop bottom (unit: angstrom^2)"
+puts "Frame id, oil total, oil-water, oil-surface (unit: angstrom^2)"
 close $output

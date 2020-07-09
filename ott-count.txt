@@ -1,10 +1,13 @@
 ############################
-# The Tcl script counts the number of oil atoms within 3.6 angstrom of kerogen surface
-# polar oil
+# This Tcl script counts the number of oil atoms within 3.6 angstrom of kerogen surface
+# polar oil: OTT
+# surface: KER
 # created by Zelong Zhang in 2020
+# https://er1czz.github.io/vmd/
 ############################
 set output [open "count_out.txt" w]
 set frames [molinfo top get numframes]
+# loop
 for {set i 0} {$i<$frames} {incr i} {
 set a [atomselect top "resname OTT and within 3.6 of resname KER" frame $i]
 set num [$a num]
