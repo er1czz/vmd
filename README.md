@@ -8,7 +8,7 @@
 4. Type "source ott-count.txt" to execute the script and the data will be saved as "count_out.txt".  
 
 ### Output file is formated as \<frame number> \<atom number>.
-### For example  
+### Output example  
 **0 0  
 1 106  
 2 198  
@@ -25,7 +25,7 @@
 ### Similar to instructuion 1, data will be saved as "sasa_out.txt".  
 ### Output file is formated as \<frame number> \<total SA of oil> \<contact SA of water/oil> \< contact SA of surface/oil>.
 ### unit: angstrom<sup>2</sup>  
-### For example  
+### Output example  
 **0 2889.4345703125 2848.1982421875 262.49859619140625  
 1 3706.266357421875 2836.384033203125 975.4174194335938  
 2 4283.4658203125 2657.725830078125 1629.1090087890625  
