@@ -1,5 +1,5 @@
-<img src="https://er1czz.github.io/vmd/illustration.jpg" height="250" width="250">
-# VMD (Visual Molecular Dynamics) software can be download at https://www.ks.uiuc.edu/Research/vmd/
+<img src="https://er1czz.github.io/vmd/illustration.jpg" height="250" width="250">  
+# VMD (Visual Molecular Dynamics) software can be download at https://www.ks.uiuc.edu/Research/vmd/  
 # Instruction 1: use the Tcl script for VMD to calculate the amount of oil atoms on surface (within 0.36 nm)
 1. Load the trajectory file in VMD; (e.g. wkpod300-comp.gro, drag the file to VMD Main or on **VMD Main** click **File** tab then **New Molecule ...**)
 2. Open VMD TkConsole; (click **Extension** tab then **Tk Console**)
@@ -20,10 +20,10 @@ For example
 [**ott-count.txt**](https://er1czz.github.io/vmd/ott-count.txt): Tcl script to count numbers of polar oil atoms (resname OTT) within 3.6 Angstroms of kerogen surface   
 [**wkpod300-comp.gro**](https://er1czz.github.io/vmd/wkpod300-comp.gro): gromacs trajectory file (six frames) of a polar oil cluster (30 octanethiols) interaction with a kerogen surface
 
-# Instruction 2: use the Tcl script for VMD to calculate the surface area of oil droplet (probing radius 0.14 nm)
+# Instruction 2: use the Tcl script for VMD to calculate the surface area (SA) of oil droplet (probing radius 0.14 nm)
 Similar to instructuion 1, data will be saved as "sasa_out.txt".  
 
-### Output file is formated as \<frame number> \<total SA> \<water/oil contact area> \<surface/oil contact area>.
+### Output file is formated as \<frame number> \<total SA of oil> \<contact SA of water/oil> \< contact SA of surface/oil>.
 ### unit: angstrom<sup>2</sup>  
 For example  
 **0 2889.4345703125 2848.1982421875 262.49859619140625  
