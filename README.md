@@ -1,6 +1,7 @@
 <img src="https://er1czz.github.io/vmd/illustration.jpg" height="250" width="250">  
+
 # VMD (Visual Molecular Dynamics) software can be download at https://www.ks.uiuc.edu/Research/vmd/  
-# Instruction 1: use the Tcl script for VMD to calculate the amount of oil atoms on surface (within 0.36 nm)
+# Instruction 1: use the Tcl script for VMD to calculate the amount of oil atoms on surface (within 0.36 nm)  
 1. Load the trajectory file in VMD; (e.g. wkpod300-comp.gro, drag the file to VMD Main or on **VMD Main** click **File** tab then **New Molecule ...**)
 2. Open VMD TkConsole; (click **Extension** tab then **Tk Console**)
 3. Set directory to the location of script file; (Use command "cd" and "cd .." to navigate and "pwd" to show current directory)
