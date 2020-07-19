@@ -11,7 +11,7 @@
 3. Set directory to the location of script file; (Use command "cd" and "cd .." to navigate and "pwd" to show current directory)
 4. Type "source ott-count.txt" to execute the script and the data will be saved as "count_out.txt".  
 
-#### Output file is formated as \<frame number> \<atom number>.
+#### Output file is formated as \<frame number> \<atom number>. (delimited by space)
 #### Output example  
 **0 0  
 1 106  
@@ -35,8 +35,7 @@
 3. Set directory to the location of script file; (Use command "cd" and "cd .." to navigate and "pwd" to show current directory)
 4. Type "source ott-sasa.txt" to execute the script and the data will be saved as "sasa_out.txt".  
   
-#### Output file is formated as \<frame number> \<total SA of oil> \<contact SA of water/oil> \< contact SA of surface/oil>.
-#### unit: angstrom<sup>2</sup>  
+#### Output file is formated as \<frame number> \<total SA of oil> \<contact SA of water/oil> \< contact SA of surface/oil>. (delimited by space)
 #### Output example  
 **0 2889.4345703125 2848.1982421875 262.49859619140625  
 1 3706.266357421875 2836.384033203125 975.4174194335938  
@@ -44,6 +43,7 @@
 3 4248.119140625 2598.83251953125 1571.08984375  
 4 4459.04833984375 2660.631103515625 1747.8780517578125  
 5 4613.27392578125 2723.780517578125 1727.9306640625**
+#### unit: angstrom<sup>2</sup>  
 
 ### File description:   
 [**oct-sasa.txt**](https://er1czz.github.io/vmd/oct-sasa.txt): Tcl script to analyze surface area of non-polar oil droplet.   
