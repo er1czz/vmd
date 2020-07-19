@@ -1,6 +1,6 @@
 # Tutorial - use VMD Tcl/tk scripting to analyze a three-phase interface (water/oil/surface)
 <img src="https://er1czz.github.io/vmd/illustration.jpg" height="250" width="250">  
-### Simulation concept: inital state (left, free droplet) to final state (right, adsorbed droplet)  
+Simulation concept: inital state (left, free droplet) to final state (right, adsorbed droplet)  
 
 ## Example 1: calculate the amount of oil atoms on surface (within 0.36 nm)
 ### Calculate the center-of-mass (COM) distance between adsorbate atoms and surface atoms.
