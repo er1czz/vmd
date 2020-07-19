@@ -28,7 +28,13 @@
 ## Example 2: calculate the surface area (SA) of oil droplet
 ### Solvent-accessible surface area method uses a imaginative sphere with a given probe radius (e.g. 0.14 nm for water) to measure the surface area of selected group.
 ### <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d3/Accessible_surface.svg/280px-Accessible_surface.svg.png" height="240" width="196">
-### Similar to instructuion 1, data will be saved as "sasa_out.txt".  
+
+0. Download VMD software https://www.ks.uiuc.edu/Research/vmd/  
+1. Load the trajectory file in VMD; (e.g. wkpod300-comp.gro, drag the file to VMD Main or on **VMD Main** click **File** tab then **New Molecule ...**)
+2. Open VMD TkConsole; (click **Extension** tab then **Tk Console**)
+3. Set directory to the location of script file; (Use command "cd" and "cd .." to navigate and "pwd" to show current directory)
+4. Type "source ott-sasa.txt" to execute the script and the data will be saved as "sasa_out.txt".  
+  
 #### Output file is formated as \<frame number> \<total SA of oil> \<contact SA of water/oil> \< contact SA of surface/oil>.
 #### unit: angstrom<sup>2</sup>  
 #### Output example  
