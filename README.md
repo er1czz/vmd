@@ -47,7 +47,7 @@
 
 ### File description:   
 [**oct-sasa.txt**](https://er1czz.github.io/vmd/oct-sasa.txt): Tcl script for analyzing surface area of a non-polar oil droplet.   
-[**ott-sasa.txt**](https://er1czz.github.io/vmd/ott-sasa.txt): Tcl script for analyzing surface area of a polar oil droplet.
+[**ott-sasa.txt**](https://er1czz.github.io/vmd/ott-sasa.txt): Tcl script for analyzing surface area of a polar oil droplet.    
 [**wkpod300-comp.gro**](https://er1czz.github.io/vmd/wkpod300-comp.gro): gromacs trajectory file (six frames) of a polar oil cluster (30 octanethiols) interaction with a kerogen surface
 
 **>>>>>> [CC0 1.0 Public Domain Dedication](https://creativecommons.org/publicdomain/zero/1.0/) <<<<<<**  
