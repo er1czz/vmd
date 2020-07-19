@@ -22,6 +22,9 @@
 [**wkpod300-comp.gro**](https://er1czz.github.io/vmd/wkpod300-comp.gro): gromacs trajectory file (six frames) of a polar oil cluster (30 octanethiols) interaction with a kerogen surface
 
 # Instruction 2: use the Tcl script for VMD to calculate the surface area (SA) of oil droplet (probing radius 0.14 nm)
+### Solvent-accessible surface area (SASA) method uses a imaginative sphere with a given radius (e.g. 0.14 nm for water) to measure the surface area of selected group.
+### <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d3/Accessible_surface.svg/280px-Accessible_surface.svg.png" height="240" width="196">
+### SASA algorithm concept
 ### Similar to instructuion 1, data will be saved as "sasa_out.txt".  
 ### Output file is formated as \<frame number> \<total SA of oil> \<contact SA of water/oil> \< contact SA of surface/oil>.
 ### unit: angstrom<sup>2</sup>  
