@@ -1,6 +1,7 @@
+# Tutorial - use VMD Tcl/tk scripting to analyze a three-phase interface (oil/water/surface)
 <img src="https://er1czz.github.io/vmd/illustration.jpg" height="250" width="250">  
 
-# Instruction 1: use the Tcl script for VMD to calculate the amount of oil atoms on surface (within 0.36 nm)  
+# Example 1: calculate the amount of oil atoms on surface (within 0.36 nm)  
 0. Download VMD software https://www.ks.uiuc.edu/Research/vmd/  
 1. Load the trajectory file in VMD; (e.g. wkpod300-comp.gro, drag the file to VMD Main or on **VMD Main** click **File** tab then **New Molecule ...**)
 2. Open VMD TkConsole; (click **Extension** tab then **Tk Console**)
@@ -21,7 +22,7 @@
 [**ott-count.txt**](https://er1czz.github.io/vmd/ott-count.txt): Tcl script to count numbers of polar oil atoms (resname OTT) within 3.6 Angstroms of kerogen surface   
 [**wkpod300-comp.gro**](https://er1czz.github.io/vmd/wkpod300-comp.gro): gromacs trajectory file (six frames) of a polar oil cluster (30 octanethiols) interaction with a kerogen surface
 
-# Instruction 2: use the Tcl script for VMD to calculate the surface area (SA) of oil droplet (probing radius 0.14 nm)
+# Example 2: use the Tcl script for VMD to calculate the surface area (SA) of oil droplet (probing radius 0.14 nm)
 ### Solvent-accessible surface area (SASA) method uses a imaginative sphere with a given radius (e.g. 0.14 nm for water) to measure the surface area of selected group.
 ### <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d3/Accessible_surface.svg/280px-Accessible_surface.svg.png" height="240" width="196">
 ### SASA algorithm concept
