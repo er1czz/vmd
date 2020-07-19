@@ -4,7 +4,7 @@
 **Concept scheme: left, free droplet; right, adsorbed droplet.**  
 
 ## Example 1: calculate the amount of oil atoms on surface (within 0.36 nm)
-### Calculate the center-of-mass (COM) distance between adsorbate atoms and surface atoms.
+### This calculation is based on the center-of-mass (COM) distance between the atoms of the oil molecules and the atoms of surface molecules.
 0. Download VMD software https://www.ks.uiuc.edu/Research/vmd/  
 1. Load the trajectory file in VMD; (e.g. wkpod300-comp.gro, drag the file to VMD Main or on **VMD Main** click **File** tab then **New Molecule ...**)
 2. Open VMD TkConsole; (click **Extension** tab then **Tk Console**)
