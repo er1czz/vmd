@@ -11,7 +11,7 @@
 3. Set directory to the location of script file; (Use command "cd" and "cd .." to navigate and "pwd" to show current directory)
 4. Type "source ott-count.txt" to execute the script and the data will be saved as "count_out.txt".  
 
-#### Output file is formated as \<frame number> \<atom number>. (delimited by space)
+#### Output file is formated as \<frame number> \<counts>. (delimited by space)
 #### Output example  
 **0 0  
 1 106  
