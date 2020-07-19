@@ -21,12 +21,12 @@
 5 230**  
 
 ### File description:   
-[**oct-count.txt**](https://er1czz.github.io/vmd/oct-count.txt): Tcl script to count numbers of non-polar oil atoms (resname OCT) within 3.6 Angstroms of kerogen surface (resname KER)   
-[**ott-count.txt**](https://er1czz.github.io/vmd/ott-count.txt): Tcl script to count numbers of polar oil atoms (resname OTT) within 3.6 Angstroms of kerogen surface   
+[**oct-count.txt**](https://er1czz.github.io/vmd/oct-count.txt): Tcl script for counting numbers of non-polar oil atoms (resname OCT) within 3.6 Angstroms of kerogen surface (resname KER)   
+[**ott-count.txt**](https://er1czz.github.io/vmd/ott-count.txt): Tcl script for counting numbers of polar oil atoms (resname OTT) within 3.6 Angstroms of kerogen surface   
 [**wkpod300-comp.gro**](https://er1czz.github.io/vmd/wkpod300-comp.gro): gromacs trajectory file (six frames) of a polar oil cluster (30 octanethiols) interaction with a kerogen surface
 
 ## Example 2: calculate the surface area (SA) of oil droplet
-### Solvent-accessible surface area method uses a imaginative sphere with a given probe radius (e.g. 0.14 nm for water) to measure the surface area of selected region(s).
+### Solvent-accessible surface area method uses a imaginative sphere with a given probe radius (e.g. 0.14 nm) to measure the surface area of a selected region(s).
 ### <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d3/Accessible_surface.svg/280px-Accessible_surface.svg.png" height="240" width="196">
 
 0. Download VMD software https://www.ks.uiuc.edu/Research/vmd/  
@@ -46,5 +46,5 @@
 #### unit: angstrom<sup>2</sup>  
 
 ### File description:   
-[**oct-sasa.txt**](https://er1czz.github.io/vmd/oct-sasa.txt): Tcl script to analyze surface area of non-polar oil droplet.   
-[**ott-sasa.txt**](https://er1czz.github.io/vmd/ott-sasa.txt): Tcl script to analyze surface area of non-polar oil droplet.
+[**oct-sasa.txt**](https://er1czz.github.io/vmd/oct-sasa.txt): Tcl script for analyzing surface area of non-polar oil droplet.   
+[**ott-sasa.txt**](https://er1czz.github.io/vmd/ott-sasa.txt): Tcl script for analyzing surface area of non-polar oil droplet.
