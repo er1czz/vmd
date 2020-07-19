@@ -48,3 +48,5 @@
 ### File description:   
 [**oct-sasa.txt**](https://er1czz.github.io/vmd/oct-sasa.txt): Tcl script for analyzing surface area of non-polar oil droplet.   
 [**ott-sasa.txt**](https://er1czz.github.io/vmd/ott-sasa.txt): Tcl script for analyzing surface area of non-polar oil droplet.
+
+**>>>>>> CC BY-NC-ND 4.0 <<<<<<**
