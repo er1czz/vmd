@@ -26,7 +26,7 @@
 [**wkpod300-comp.gro**](https://er1czz.github.io/vmd/wkpod300-comp.gro): gromacs trajectory file (six frames) of a polar oil cluster (30 octanethiols) interaction with a kerogen surface
 
 ## Example 2: calculate the surface area (SA) of oil droplet
-### Solvent-accessible surface area method uses a imaginative sphere with a given probe radius (e.g. 0.14 nm for water) to measure the surface area of selected group.
+### Solvent-accessible surface area method uses a imaginative sphere with a given probe radius (e.g. 0.14 nm for water) to measure the surface area of selected region(s).
 ### <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d3/Accessible_surface.svg/280px-Accessible_surface.svg.png" height="240" width="196">
 
 0. Download VMD software https://www.ks.uiuc.edu/Research/vmd/  
