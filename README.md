@@ -1,15 +1,16 @@
 # Tutorial - use VMD Tcl/tk scripting to analyze a three-phase interface (water/oil/surface)
 <img src="https://er1czz.github.io/vmd/illustration.jpg" height="250" width="250">  
+Download VMD software https://www.ks.uiuc.edu/Research/vmd/    
 
-## Example 1: calculate the amount of oil atoms on surface (within 0.36 nm)  
-0. Download VMD software https://www.ks.uiuc.edu/Research/vmd/  
+## Example 1: calculate the amount of oil atoms on surface (within 0.36 nm)
+### Calculate the center-of-mass (COM) distance between adsorbate atoms and surface atoms.
 1. Load the trajectory file in VMD; (e.g. wkpod300-comp.gro, drag the file to VMD Main or on **VMD Main** click **File** tab then **New Molecule ...**)
 2. Open VMD TkConsole; (click **Extension** tab then **Tk Console**)
 3. Set directory to the location of script file; (Use command "cd" and "cd .." to navigate and "pwd" to show current directory)
 4. Type "source ott-count.txt" to execute the script and the data will be saved as "count_out.txt".  
 
-### Output file is formated as \<frame number> \<atom number>.
-### Output example  
+#### Output file is formated as \<frame number> \<atom number>.
+#### Output example  
 **0 0  
 1 106  
 2 198  
@@ -22,14 +23,14 @@
 [**ott-count.txt**](https://er1czz.github.io/vmd/ott-count.txt): Tcl script to count numbers of polar oil atoms (resname OTT) within 3.6 Angstroms of kerogen surface   
 [**wkpod300-comp.gro**](https://er1czz.github.io/vmd/wkpod300-comp.gro): gromacs trajectory file (six frames) of a polar oil cluster (30 octanethiols) interaction with a kerogen surface
 
-## Example 2: use the Tcl script for VMD to calculate the surface area (SA) of oil droplet (probing radius 0.14 nm)
-### Solvent-accessible surface area (SASA) method uses a imaginative sphere with a given radius (e.g. 0.14 nm for water) to measure the surface area of selected group.
+## Example 2: calculate the surface area (SA) of oil droplet
+### Solvent-accessible surface area (SASA) method uses a imaginative sphere with a given probe radius (e.g. 0.14 nm for water) to measure the surface area of selected group.
 ### <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d3/Accessible_surface.svg/280px-Accessible_surface.svg.png" height="240" width="196">
 ### SASA algorithm concept
 ### Similar to instructuion 1, data will be saved as "sasa_out.txt".  
-### Output file is formated as \<frame number> \<total SA of oil> \<contact SA of water/oil> \< contact SA of surface/oil>.
-### unit: angstrom<sup>2</sup>  
-### Output example  
+#### Output file is formated as \<frame number> \<total SA of oil> \<contact SA of water/oil> \< contact SA of surface/oil>.
+#### unit: angstrom<sup>2</sup>  
+#### Output example  
 **0 2889.4345703125 2848.1982421875 262.49859619140625  
 1 3706.266357421875 2836.384033203125 975.4174194335938  
 2 4283.4658203125 2657.725830078125 1629.1090087890625  
