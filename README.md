@@ -51,7 +51,7 @@
 [**wkpod300-comp.gro**](https://er1czz.github.io/vmd/wkpod300-comp.gro): gromacs trajectory file (six frames) of a polar oil cluster (30 octanethiols) interaction with a kerogen surface
 
 ## Reference  
-arXiv preprint [https://arxiv.org/abs/2007.09741](https://arxiv.org/abs/2007.09741)**  
+arXiv preprint [https://arxiv.org/abs/2007.09741](https://arxiv.org/abs/2007.09741)  
 Figure in Example 2: wikipedia [https://en.wikipedia.org/wiki/Accessible_surface_area](https://commons.wikimedia.org/wiki/File:Accessible_surface.svg)  
 **>>>>>> [CC0 1.0 Public Domain Dedication](https://creativecommons.org/publicdomain/zero/1.0/) <<<<<<**  
 You can copy, modify, distribute and perform the work, even for commercial purposes, all without asking permission. 
