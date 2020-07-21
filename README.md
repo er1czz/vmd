@@ -54,5 +54,4 @@ Courtesy of Keith Callenberg from [Wikipedia](https://commons.wikimedia.org/wiki
 ## Reference  
 arXiv preprint [https://arxiv.org/abs/2007.09741](https://arxiv.org/abs/2007.09741)  
 Wikipedia [https://en.wikipedia.org/wiki/Accessible_surface_area](https://en.wikipedia.org/wiki/Accessible_surface_area)  
-**>>>>>> [CC0 1.0 Public Domain Dedication](https://creativecommons.org/publicdomain/zero/1.0/) <<<<<<**  
-You can copy, modify, distribute and perform the work, even for commercial purposes, all without asking permission. 
+**>>>>>> [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) <<<<<<**  
