@@ -27,7 +27,7 @@
 
 ## Example 2: calculate the surface area (SA) of oil droplet
 ### Solvent-accessible surface area method uses a imaginative sphere with a given probe radius (e.g. 0.14 nm) to measure the surface area of a selected region(s).
-### <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d3/Accessible_surface.svg/280px-Accessible_surface.svg.png" height="240" width="196" alt="Keith Callenberg"> 
+### <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d3/Accessible_surface.svg/280px-Accessible_surface.svg.png" height="240" width="196" alt="Keith Callenberg"> <Courtesy of Keith Callenberg from [Wikipedia](https://commons.wikimedia.org/wiki/File:Accessible_surface.svg)>
 
 0. Download VMD software https://www.ks.uiuc.edu/Research/vmd/  
 1. Load the trajectory file in VMD; (e.g. wkpod300-comp.gro, drag the file to VMD Main or on **VMD Main** click **File** tab then **New Molecule ...**)
@@ -52,6 +52,6 @@
 
 ## Reference  
 arXiv preprint [https://arxiv.org/abs/2007.09741](https://arxiv.org/abs/2007.09741)  
-Figure in Example 2: wikipedia [https://en.wikipedia.org/wiki/Accessible_surface_area](https://commons.wikimedia.org/wiki/File:Accessible_surface.svg)  
+Wikipedia [https://en.wikipedia.org/wiki/Accessible_surface_area](https://en.wikipedia.org/wiki/Accessible_surface_area)  
 **>>>>>> [CC0 1.0 Public Domain Dedication](https://creativecommons.org/publicdomain/zero/1.0/) <<<<<<**  
 You can copy, modify, distribute and perform the work, even for commercial purposes, all without asking permission. 
