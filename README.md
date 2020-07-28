@@ -1,6 +1,6 @@
 # Tutorial - use VMD Tcl/tk scripting to analyze a three-phase interface (water/oil/surface)
-<img src="https://github.com/er1czz/vmd/blob/master/si%20illustration%20ab.jpg?raw=true" height="300" width="300" style = "border:10px solid white">  
-**Concept scheme: left, free droplet; right, adsorbed droplet.**  
+<p align="center"><img src="https://github.com/er1czz/vmd/blob/master/si%20illustration%20ab.jpg?raw=true" height="300" width="300" style = "border:10px solid white">  
+  <b>Concept scheme: left, free droplet; right, adsorbed droplet.</b></p>
 
 ## Example 1: calculate the amount of oil atoms on surface (within 0.36 nm)
 ### This calculation is based on the center-of-mass (COM) distance between the atoms of the oil molecules and the atoms of surface molecules.
