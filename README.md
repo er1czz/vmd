@@ -26,7 +26,7 @@
 
 ## Example 2: calculate the surface area (SA) of oil droplet
 ### Solvent-accessible surface area method uses a imaginative sphere with a given probe radius (e.g. 0.14 nm) to measure the surface area of a selected region(s).
-<p align="center"> <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d3/Accessible_surface.svg/280px-Accessible_surface.svg.png" height="240" width="196"></p>  
+<p align="center"> <img src="https://upload.wikimedia.org/wikipedia/commons/d/d3/Accessible_surface.svg" height="240" width="196"></p>  
 <p align="center"><b>Courtesy of Keith Callenberg from Wikipedia</b></p>
 
 0. Download VMD software https://www.ks.uiuc.edu/Research/vmd/  
